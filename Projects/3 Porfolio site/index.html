@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- CDN Links -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+      integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7"
+      crossorigin="anonymous"
+    /> -->
+
+    <!-- Dowmloaded file links -->
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+  </head>
+  <body>
+    <div class="page-loader">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+    <header class="header">
+      <div class="container">
+        <div class="row flex-end">
+          <button class="nav-toggler" type="button">
+            <span></span>
+          </button>
+          <nav class="nav">
+            <div class="nav-inner">
+              <ul>
+                <li><a href="#home" class="nav-item link-item">Home</a></li>
+                <li><a href="#about" class="nav-item link-item">About</a></li>
+                <li><a href="#portfolio" class="nav-item link-item">Portfolio</a></li>
+                <li>
+                  <a href="#contact" class="nav-item link-item">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="bg-circles">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+      <div class="circle-3"></div>
+      <div class="circle-4"></div>
+    </div>
+    <div class="container-fluid home main-item active" id="home">
+      <div class="row main">
+        <div class="col-md-6 col-12">
+          <div class="main-text">
+            <span>Hello, I'm</span>
+            <h1 class="display-3">Bilal Faisal</h1>
+            <span>Front-end Web Developer</span>
+            <div class="sub-div">
+              <br />
+              <a href="#about" class="btn link-item">More About Me</a>
+              <a href="#portfolio" class="btn link-item">Portfolio</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-12">
+          <div class="img-box">
+            <img src="images/new4.png" class="img-fluid" id="home-img" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid main-item about-section" id="about">
+      <div class="row main">
+        <div class="col-md-4">
+          <div class="img-box">
+            <img src="images/pic2.jpg" class="img-fluid" id="my-img" />
+          </div>
+        </div>
+        <!-- <div class="col"></div> -->
+        <div class="col-md-8">
+          <div class="aboutus-text">
+            <h1 class="display-5 mt-5 about-section-title">About Me</h1>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+              itaque iste voluptatibus molestias cupiditate, nisi praesentium a
+              ad dolores ex voluptatem rerum deleniti sequi quisquam excepturi
+              molestiae officiis distinctio? Mollitia! Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Aliquid iste vero quae est at
+              quibusdam non repellendus nobis deserunt rerum, impedit magni odit
+              quaerat fuga. Voluptatum laboriosam quia repellendus distinctio.
+            </p>
+            <br />
+            <h5 class="mb-3">Skills</h5>
+
+            <span id="skills">HTML</span>
+            <span id="skills">CSS</span>
+            <span id="skills">JavaScript</span>
+            <span id="skills">Bootstrap</span>
+            <span id="skills">Jquery</span>
+            <span id="skills">PHP</span>
+            <span id="skills">SQL</span>
+            <span id="skills">MYSQL</span>
+            <span id="skills">React</span>
+            <span id="skills">Photoshop</span>
+
+            <div class="about-tabs">
+              <button
+                type="button"
+                class="tab-item active"
+                data-target="#education"
+              >
+                Education
+              </button>
+
+              <button type="button" class="tab-item" data-target="#experience">
+                Experience
+              </button>
+            </div>
+            <div class="tab-content active" id="education">
+              <div class="timeline">
+                <div class="timeline-item">
+                  <span class="date"
+                    >2019 - <span class="sub-span">2023</span></span
+                  >
+                  <h5>
+                    Bachelors In Information Technology - <span>PUCIT</span>
+                  </h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                    ea error quae! Laboriosam veniam iure aut deleniti minus
+                    sapiente fuga?
+                  </p>
+                </div>
+                <div class="timeline-item">
+                  <span class="date"
+                    >2021 - <span class="sub-span">2022</span></span
+                  >
+                  <h5>
+                    Advance web Application Development - <span>UET</span>
+                  </h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                    ea error quae! Laboriosam veniam iure aut deleniti minus
+                    sapiente fuga?
+                  </p>
+                </div>
+                <div class="timeline-item">
+                  <span class="date">2019 - 2020</span>
+                  <h5>Website Designing & Development - <span>PNY</span></h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                    ea error quae! Laboriosam veniam iure aut deleniti minus
+                    sapiente fuga?
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-content" id="experience">
+              <div class="timeline">
+                <div class="timeline-item">
+                  <span class="date"
+                    >2020 - <span class="sub-span">Present</span></span
+                  >
+                  <h5>Web Developer - <span>Fiverr</span></h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                    ea error quae! Laboriosam veniam iure aut deleniti minus
+                    sapiente fuga?
+                  </p>
+                </div>
+                <div class="timeline-item">
+                  <span class="date">2020 - 2021</span>
+                  <h5>Wordpress Developer - <span>Netsouls Okara</span></h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                    ea error quae! Laboriosam veniam iure aut deleniti minus
+                    sapiente fuga?
+                  </p>
+                </div>
+                <!-- <div class="timeline-item">
+                  <span class="date">2013 - 2016</span>
+                  <h5>Web Developer - <span>PUCIT</span></h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                    ea error quae! Laboriosam veniam iure aut deleniti minus
+                    sapiente fuga?
+                  </p>
+                </div> -->
+              </div>
+            </div>
+
+            <a href="./Bilal Faisal Web Dev CV.doc" target="_blank" class="btn"
+              >Download CV</a
+            >
+            <a href="#contact" class="btn link-item">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    
+    <div class="container-fluid main-item portfolio-section " id="portfolio">
+      <div class="main">
+        <div class="row">
+          <div class="text-center display-5 heading-contact mt-3 mb-4">
+            Recent Work
+          </div>
+        </div>
+        <div class="container">
+          <div class="row ">
+            <!-- Item start -->
+            <div class="col-md-4 col-sm-6 col-12 mb-5">
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="images/1.JPG" alt="portfolio item thumb" class="img-thumbnail" id="img-thumb">
+              </div>
+              <h3 class="portfolio-item-title">Personal CV</h3>
+              <a type="button" class="btn view-project-btn">View Project</a>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ducimus a sint, quibusdam consectetur tenetur vero! Officiis quidem repudiandae dolor id quasi doloremque aspernatur a quo quam esse consectetur, quas blanditiis corporis labore iusto ducimus totam beatae atque. Suscipit voluptas repellat labore ea tempora vitae excepturi repudiandae obcaecati tempore quia?</p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>14 Aug 2021</span></li>
+                    <li>Technologies Used - <span>Bootstrap</span></li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>View Onine - <span><a href="http://www.bilalfaisalcv.surge.sh" target="_blank">bilalfaisalcv.surge.sh</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            </div>
+            <!-- Item End -->
+            <!-- Item start -->
+            <div class="col-md-4 col-sm-6 col-12 mb-5">
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="images/2.JPG" alt="portfolio item thumb" class="img-thumbnail" id="img-thumb">
+              </div>
+              <h3 class="portfolio-item-title">E-commerce Site</h3>
+              <a type="button" class="btn view-project-btn">View Project</a>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ducimus a sint, quibusdam consectetur tenetur vero! Officiis quidem repudiandae dolor id quasi doloremque aspernatur a quo quam esse consectetur, quas blanditiis corporis labore iusto ducimus totam beatae atque. Suscipit voluptas repellat labore ea tempora vitae excepturi repudiandae obcaecati tempore quia?</p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>15 June 2021</span></li>
+                    <li>Technologies Used - <span>Wordpress</span></li>
+                    <li>Role - <span>Ecommerce Store</span></li>
+                    <li>View Onine - <span><a href="https://emanmusicschool.com" target="_blank">www.emanmusicschool.com</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            </div>
+            <!-- Item End -->
+            
+            <!-- Item start -->
+            <div class="col-md-4 col-sm-6 col-12 mb-5">
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="images/3.JPG" alt="portfolio item thumb" class="img-thumbnail" id="img-thumb">
+              </div>
+              <h3 class="portfolio-item-title">Music Site</h3>
+              <a type="button" class="btn view-project-btn">View Project</a>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ducimus a sint, quibusdam consectetur tenetur vero! Officiis quidem repudiandae dolor id quasi doloremque aspernatur a quo quam esse consectetur, quas blanditiis corporis labore iusto ducimus totam beatae atque. Suscipit voluptas repellat labore ea tempora vitae excepturi repudiandae obcaecati tempore quia?</p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>1 Aug 2020</span></li>
+                    <li>Technologies Used - <span>Html, Css</span></li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>View Onine - <span><a href="https://www.grindngain.net/" target="_blank">www.grindngain.net</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            </div>
+            <!-- Item End -->
+            
+
+
+            <!-- Item start -->
+            <div class="col-md-4 col-sm-6 col-12  mb-5">
+              <div class="portfolio-item">
+                <div class="portfolio-item-thumbnail">
+                  <img src="images/4.JPG" alt="portfolio item thumb" class="img-thumbnail" id="img-thumb">
+                </div>
+                <h3 class="portfolio-item-title">Education Site</h3>
+                <a type="button" class="btn view-project-btn">View Project</a>
+                <div class="portfolio-item-details">
+                  <div class="description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ducimus a sint, quibusdam consectetur tenetur vero! Officiis quidem repudiandae dolor id quasi doloremque aspernatur a quo quam esse consectetur, quas blanditiis corporis labore iusto ducimus totam beatae atque. Suscipit voluptas repellat labore ea tempora vitae excepturi repudiandae obcaecati tempore quia?</p>
+                  </div>
+                  <div class="general-info">
+                    <ul>
+                      <li>Created - <span>4 Dec 2020</span></li>
+                      <li>Technologies Used - <span>Wordpress</span></li>
+                      <li>Role - <span>Blogs</span></li>
+                      <li>View Onine - <span><a href="http://www.hardwick-cambs.org.uk/" target="_blank">www.hardwick-cambs.org.uk</a></span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <!-- Item End -->
+              <!-- Item start -->
+            <div class="col-md-4 col-sm-6 col-12  mb-5">
+              <div class="portfolio-item">
+                <div class="portfolio-item-thumbnail">
+                  <img src="images/5.JPG" alt="portfolio item thumb" class="img-thumbnail" id="img-thumb">
+                </div>
+                <h3 class="portfolio-item-title">Portfolio Site</h3>
+                <a type="button" class="btn view-project-btn">View Project</a>
+                <div class="portfolio-item-details">
+                  <div class="description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ducimus a sint, quibusdam consectetur tenetur vero! Officiis quidem repudiandae dolor id quasi doloremque aspernatur a quo quam esse consectetur, quas blanditiis corporis labore iusto ducimus totam beatae atque. Suscipit voluptas repellat labore ea tempora vitae excepturi repudiandae obcaecati tempore quia?</p>
+                  </div>
+                  <div class="general-info">
+                    <ul>
+                      <li>Created - <span>4 Dec 2020</span></li>
+                      <li>Technologies Used - <span>Bootstrap</span></li>
+                      <li>Role - <span>Frontend</span></li>
+                      <li>View Onine - <span><a href="http://portfolioold.surge.sh" target="_blank">portfolioold.surge.sh</a></span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <!-- Item End -->
+              
+              <!-- Item start -->
+            <div class="col-md-4 col-sm-6 col-12  mb-5">
+              <div class="portfolio-item">
+                <div class="portfolio-item-thumbnail">
+                  <img src="images/6.1.JPG" alt="portfolio item thumb" class="img-thumbnail" id="img-thumb">
+                </div>
+                <h3 class="portfolio-item-title">Tourist Site</h3>
+                <a type="button" class="btn view-project-btn">View Project</a>
+                <div class="portfolio-item-details">
+                  <div class="description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ducimus a sint, quibusdam consectetur tenetur vero! Officiis quidem repudiandae dolor id quasi doloremque aspernatur a quo quam esse consectetur, quas blanditiis corporis labore iusto ducimus totam beatae atque. Suscipit voluptas repellat labore ea tempora vitae excepturi repudiandae obcaecati tempore quia?</p>
+                  </div>
+                  <div class="general-info">
+                    <ul>
+                      <li>Created - <span>1 Feb 2020</span></li>
+                      <li>Technologies Used - <span>Html, Css, Bootstrap, JS, Jquery</span></li>
+                      <li>Role - <span>Frontend</span></li>
+                      <li>View Onine - <span><a href="http://www.wheretogo.surge.sh" target="_blank">www.whweretogo.surge.sh</a></span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <!-- Item End -->
+          </div>
+        </div>
+        <div class="row mb-4">
+          <!-- <div class="text-center display-5 heading-contact mt-3 mb-4"> -->
+            <div class="col"></div>
+            <div class="col-5 col-md-3">
+              <a href="#contact" class="link-item btn" style="width: 100%;">Contact Me</a>
+            </div>
+            <div class="col"></div>
+          <!-- </div> -->
+        </div>
+
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="portfolio-popup">
+            <div class="pp-inner">
+              <div class="pp-content">
+                <div class="pp-header">
+                  <a type="button" class="btn pp-close"><i class="fas fa-times"></i></a>
+                  <div class="pp-thumbnail">
+                    <img src="images/portfolio1.jpg" alt="pp-thumbnail" class="img-fluid">
+                  </div>
+                  <h3></h3>
+                </div>
+                <div class="pp-body">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid main-item contact-section contact" id="contact">
+      <div class="row main ">
+        <div class="text-center display-5 heading-contact mt-3 mb-4">
+          Contact Me
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <form>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Name..."
+                    class="form-control"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="email"
+                    name="name"
+                    id="email"
+                    placeholder="Email..."
+                    class="form-control"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="subject"
+                    id="subject"
+                    placeholder="Subject..."
+                    class="form-control"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="msg"
+                    id="msg"
+                    placeholder="Message..."
+                    class="form-control"
+                  />
+                </div>
+                <div class="form-group">
+                  <a href="" class="btn send-msg">Send Message</a>
+                </div>
+              </form>
+            </div>
+            <div class="col-md-6 mt-5 mt-md-0">
+              <div class="sub-category">
+                <h5>Email</h5>
+                <p>bilal.faisal31@gmail.com</p>
+              </div>
+              <div class="sub-category">
+                <h5>Phone</h5>
+                <p>+92 310 1710479</p>
+              </div>
+              <div class="sub-category">
+                <h5>Follow Me</h5>
+                <p>
+                  <div>
+                    <div class="icon">
+                    <a href="https://www.facebook.com/profile.php?id=100004397085824" target="_blank">
+                      <!-- <i class="social-icons fab fa-facebook"></i> -->
+                      <i class="social-icons fab fa-facebook-f"></i>
+                    </a>
+                  </div>
+                  <div class="icon">
+                    <a href="https://www.instagram.com/bilalfaisal_" target="_blank">
+                      <!-- <i class="social-icons fab fa-instagram"></i> -->
+                      <i class="social-icons fab fa-instagram"></i>
+                    </a>
+                  </div>
+                  <div class="icon">
+                    <a href="https://www.messenger.com/bilalfaisal031" target="_blank">
+                      <!-- <i class="social-icons fab fa-facebook-messenger"></i> -->
+                      <i class="social-icons fab fa-facebook-messenger"></i>
+                    </a>
+                  </div>
+                </div></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ///////////////////////////////////////// -->
+
+    <!-- CDN Links -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Downloaded file links -->
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <!-- <script src="js/jquery.js"></script> -->
+    <script src="js/fontawesome-all.min.js"></script>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffeee6;
+  color: black;
+}
+header,main,footer{
+  width: 55%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+}
+.heading{
+  text-align: center;
+  font-family: "Rosella W01";
+  font-weight: lighter;
+}
+.line{
+  margin-top: 2px;
+  height: 1px;
+  border: none;
+  background-color: #8dc5df;
+}
+h5{
+  font-family: Arial;
+  margin-top: 16px;
+  color: #d4633c;
+}
+p{
+  margin-top: 10px;
+  font-size: smaller;
+}
+.banner{
+  margin-top: 15px;
+  width: 100%;
+  object-fit: cover;
+}
+.bottom-table{
+  margin-top: 20px;
+}
+table{
+  margin-top: 12px;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+}
+tr td, tr th{
+  padding-top: 2px ;
+  padding-bottom: 2px ;
+  padding-left: 4px ;
+  font-size: smaller;
+  font-weight: lighter;
+}

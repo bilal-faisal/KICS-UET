@@ -1,0 +1,2 @@
+3 results in array form 
+const arr = [80,78,50]

@@ -1,0 +1,152 @@
+body {
+  background-color: #f1f1f1;
+  box-sizing: border-box;
+}
+.img-container {
+  position: relative;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+.img-title {
+  background-color: rgba(51, 32, 32, 0.7);
+  color: white;
+  padding: 5px 10px 6px 10px;
+  border-radius: 5px;
+}
+.first-container {
+  padding: 1rem;
+}
+.first-sub-container {
+  color: #757575;
+  /* padding-right: 8px; */
+  /* margin-top: 1rem;
+  margin-bottom: 1rem; */
+}
+.second-sub-container {
+  padding-left: 8px;
+  padding-right: 24px;
+  color: #757575;
+  /* margin-top: 1rem;
+  margin-right: 1rem; */
+}
+@media only screen and (max-width: 600px) {
+  .first-sub-container {
+    padding-right: 12px;
+  }
+  .second-sub-container {
+    padding-left: 12px;
+  }
+}
+
+.sub-heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+.experience-sub-heading {
+  font-size: 18px;
+  font-weight: bold;
+}
+.icon {
+  font-size: 1.1rem;
+  color: #009688;
+}
+.icon-md {
+  font-size: 1.3rem;
+  color: #009688;
+}
+.icon-lg {
+  font-size: 2rem;
+  color: #009688;
+}
+.text-green {
+  color: #009688;
+}
+.green-text-box {
+  color: white;
+  background-color: #009688;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+.icon-text {
+  display: inline-block;
+  padding-left: 1rem;
+}
+
+.sub-div-icon_text {
+  padding: 10px 0 0 15px;
+  /* background-color: white !important; */
+}
+.sub-div-heading {
+  padding: 0 0 15px 15px;
+}
+
+.sub-div-lang-heading {
+  padding: 15px 0 15px 15px;
+}
+.myprogress {
+  padding: 10px 0 10px 10px;
+}
+.skill-text {
+  margin-top: 15px;
+}
+
+hr {
+  margin: 20px 15px;
+}
+.progress {
+  height: 1.2rem;
+}
+.languages-section .progress {
+  height: 1.5rem;
+}
+.progress-bar {
+  background-color: #009688;
+}
+
+.experience-heading {
+  padding-top: 25px;
+  padding-left: 20px;
+}
+.work-heading {
+  /* font-size: 30px; */
+}
+
+.experience-sub-portion {
+  padding-left: 2rem;
+}
+
+.section-2-main {
+  padding-left: 12px;
+}
+.section-2-sub {
+  padding-bottom: 20px;
+}
+
+.footer {
+  color: white;
+  background-color: #009688;
+  min-height: 120px;
+}
+
+.social-icons {
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .social-icons {
+    font-size: 1.4rem;
+  }
+}
+.footer > p {
+  font-size: 18px;
+}
+
+a {
+  color: white;
+}
+a:hover {
+  color: lightcyan;
+}

@@ -1,0 +1,20 @@
+body {
+  background-color: lightgrey;
+}
+.container {
+  margin-top: 3rem;
+  background-color: #85b3d1ff;
+  padding: 3rem;
+  border-radius: 15px;
+}
+.blue-shade {
+  background-color: #2460a7ff;
+}
+.col2 {
+  background-color: #b3c7d6ff;
+  height: 20rem;
+}
+img {
+  margin: 2rem 0 1rem 0;
+  width: 85%;
+}
